@@ -1,0 +1,10 @@
+{
+  "input_file": "sample_customers.xlsx",
+  "sheet": "Customers",
+  "input_data_rows": 8,
+  "cleaned_rows": 6,
+  "duplicates_removed": 1,
+  "blank_rows_removed": 1,
+  "review_items": 2,
+  "duplicate_rule": "Same nonempty email, otherwise identical row"
+}
