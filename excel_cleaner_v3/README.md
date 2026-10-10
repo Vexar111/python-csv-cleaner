@@ -14,12 +14,17 @@ A phone-friendly Python tool for cleaning Excel **.xlsx** data. This is a portfo
 ## Run on an Android phone
 1. Install Pydroid 3.
 2. In Pydroid 3, install `openpyxl` with Pip.
-3. Keep `excel_cleaner.py` and `sample_customers.xlsx` together in the same folder.
-4. Open `excel_cleaner.py` and press Run.
-5. Inspect the new `excel_output` folder.
-6. For your own workbook, change `INPUT_FILENAME` near the top and set `SHEET_NAME` to the correct worksheet name (or `None` for the first sheet).
+3. If you cloned this GitHub folder without a sample workbook, open `create_sample.py` in Pydroid 3 and press Run. This creates `sample_customers.xlsx` from fictional records.
+4. Keep `excel_cleaner.py` and `sample_customers.xlsx` together in the same folder.
+5. Open `excel_cleaner.py` and press Run.
+6. Inspect the new `excel_output` folder (example CSV and JSON outputs are also in `example_output`).
+7. For your own workbook, change `INPUT_FILENAME` near the top and set `SHEET_NAME` to the correct worksheet name (or `None` for the first sheet).
 
 Optional PC execution: `python excel_cleaner.py path/to/file.xlsx`.
+
+## Reproduce the sample
+
+Run `create_sample.py` first if the input workbook is missing. This repository stores a generator rather than a binary workbook, so the input data can be inspected and recreated easily.
 
 ## Sample results
 | Measure | Count |
