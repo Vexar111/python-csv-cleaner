@@ -1,5 +1,10 @@
 # CSV Cleaner — Python automation portfolio example
 
+## Excel Cleaner V3 (.xlsx support)
+
+The [Excel Cleaner V3](excel_cleaner_v3/README.md) complements the CSV cleaner. It processes Excel .xlsx workbooks, separates duplicates, flags missing values for review, and exports cleaned Excel and CSV files plus a report. The folder includes a fictional sample generator, example outputs and tests.
+
+
 A **phone-friendly Python tool** that turns a messy CSV into a cleaned CSV plus an audit trail. No external packages, APIs, laptop display, or paid services are required.
 
 ## What this demo does
