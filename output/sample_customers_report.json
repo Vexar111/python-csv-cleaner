@@ -1,0 +1,16 @@
+{
+  "input_file": "sample_customers.csv",
+  "data_rows_read": 10,
+  "cleaned_rows": 5,
+  "duplicate_rows_removed": 2,
+  "blank_rows_removed": 1,
+  "malformed_rows_rejected": 2,
+  "column_names": [
+    "Name",
+    "Email",
+    "City",
+    "Notes"
+  ],
+  "duplicate_rule": "same non-empty email, otherwise identical full row",
+  "notes": "Duplicate detection keeps the first occurrence. Inspect the duplicates and rejected files."
+}
