@@ -1,0 +1,3 @@
+source_record,issue,raw_values
+10,"Expected 4 columns, found 3","[""Sneha"", ""sneha@example.com"", ""Kollam""]"
+11,"Expected 4 columns, found 5","[""Faulty"", ""faulty@example.com"", ""Chennai"", ""Extra column"", ""Oops""]"
