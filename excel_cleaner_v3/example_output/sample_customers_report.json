@@ -6,5 +6,12 @@
   "duplicates_removed": 1,
   "blank_rows_removed": 1,
   "review_items": 2,
-  "duplicate_rule": "Same nonempty email, otherwise identical row"
+  "duplicate_rule": "Same nonempty email, otherwise identical row",
+  "review_note": "Missing names/emails are flagged but retained; confirm fields with client",
+  "important_limitations": [
+    "Only .xlsx files",
+    "First row must contain headers",
+    "Uses stored results for formula cells; uncalculated formulas may appear blank",
+    "Do not automatically trust all extracted data; review results before delivery"
+  ]
 }
