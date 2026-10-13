@@ -1,0 +1,17 @@
+{
+  "notice": "Fictional portfolio fixture. These are not client records or a fetched GitHub account.",
+  "profile": {
+    "login": "portfolio-demo", "name": "Example Developer",
+    "bio": "Python data tools, with clear reports.", "location": null,
+    "followers": 12, "following": 5, "public_repos": 2,
+    "html_url": "https://example.com/portfolio-demo"
+  },
+  "repositories": [
+    {"id": 1, "name": "csv-cleanup", "description": "Clean CSV files, preserve an audit trail.",
+     "stargazers_count": 7, "forks_count": 2, "language": "Python",
+     "html_url": "https://example.com/portfolio-demo/csv-cleanup"},
+    {"id": 2, "name": "notes", "description": null,
+     "stargazers_count": 0, "forks_count": 0, "language": null,
+     "html_url": "https://example.com/portfolio-demo/notes"}
+  ]
+}

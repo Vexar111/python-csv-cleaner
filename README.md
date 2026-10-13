@@ -1,5 +1,9 @@
 # CSV Cleaner — Python automation portfolio example
 
+## Public GitHub Profile Exporter (new portfolio demo)
+
+The [Public GitHub Profile Exporter](github_profile_exporter/README.md) exports selected public profile and repository metadata to CSV and JSON using GitHub's REST API. It includes pagination, completeness flags, error handling, fictional sample outputs, and automated tests. It uses only Python's standard library; the default run is an offline demo suitable for trying in Pydroid 3. See the module README for validation status and limits.
+
 ## Excel Cleaner V3 (.xlsx support)
 
 The [Excel Cleaner V3](excel_cleaner_v3/README.md) complements the CSV cleaner. It processes Excel .xlsx workbooks, separates duplicates, flags missing values for review, and exports cleaned Excel and CSV files plus a report. The folder includes a fictional sample generator, example outputs and tests.

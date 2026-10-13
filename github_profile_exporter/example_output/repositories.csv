@@ -1,0 +1,3 @@
+﻿profile_login,name,description,stargazers_count,forks_count,language,html_url
+portfolio-demo,csv-cleanup,"Clean CSV files, preserve an audit trail.",7,2,Python,https://example.com/portfolio-demo/csv-cleanup
+portfolio-demo,notes,,0,0,,https://example.com/portfolio-demo/notes
